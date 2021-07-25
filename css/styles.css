@@ -1,0 +1,160 @@
+:root {
+    --main-text-color: #000000;
+    --interactive-link: #0050B2;
+    --secondary-background:rgba(63, 169, 245, 0.07);
+
+    --card-set-gap: 32px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Подобрать тур */
+.categories {
+    padding-top: 48px; 
+    padding-bottom: 64px;   
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--main-text-color);
+}
+
+.tours {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.tours > .categories-list-items {
+    flex-basis: calc((100% - 4 * var(--card-set-gap)) / 4);
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+}
+
+.categories-list-items {
+    width: 256px;
+    border-radius: 6px;
+    border: 1px solid #D9D9DE;
+    overflow: hidden;
+}
+
+.categories-list-items h3 {
+    margin: 0;
+    padding: 13px 19px 16px;
+}
+
+.categories-link {
+    color: var(--main-text-color);
+}
+
+/* Фотогалерея */
+.photogallery-section {
+    padding-bottom: 80px;
+
+    background-color: var(--secondary-background);
+}
+
+.photogallery-topbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photogallery-title {
+    display: flex;
+    margin: 0;
+    font-family: PT Serif;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+.photogallery-box {
+    display: flex;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 52px;
+} 
+
+.photogallery-link {
+    display: flex;
+
+    font-size: 16px;
+    line-height: 1.187;
+    text-decoration-line: underline;
+    color: var(--interactive-link);
+}
+
+.photogallery-button-list {
+    display: flex;
+    margin-left: 55px;
+}
+
+.photogallery-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border-color: var(--interactive-link);
+}
+
+.photogallery-button-list li:not(:last-child) {
+    margin-right: 16px;
+}
+
+.photogallery-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.photogallery-card > .photogallery-card-items {
+    flex-basis: calc((100% - 3 * var(--card-set-gap)) / 3);
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+}
+
+.photogallery-card-items {
+    width: 256px;
+    border-radius: 6px;
+    overflow: hidden;
+}
