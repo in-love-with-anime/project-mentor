@@ -13,37 +13,51 @@
 
 <body>
     <!-- Шапка сайта -->
-    <header>
-        <a href="/">
-            <img src="./images/logo.svg" alt="Логотип компании">
-            <p>Байкальский отдых Тургагенство</p>
-        </a>
-
-        <ul>
-            <li><a href="tel:89243541540">8-924-3-541-540</a></li>
-            <li><a href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a></li>
-        </ul>
-        <button type="button">Обратный звонок</button>
-
-        <nav>
-            <ul>
-                <li><a href="/"></a>Бронирование</li>
-                <li><a href="/"></a>Экскурсии</li>
-                <li><a href="/"></a>Туры и Байкал</li>
-                <li><a href="/"></a>О Байкале</li>
-                <li><a href="/"></a>О нас</li>
-            </ul>      
-        </nav>
+    <header class="header">
+       
+        <div class="container">
+            <div class="header-top">
+                <a class="header-logo-link" href="/">
+                    <img class="header-logo" src="./images/logo.svg" alt="Логотип компании">
+                    <div class="header-logo-text">
+                        <p class="header-title">Байкальский отдых</p>
+                        <p class="header-subtitle">Тургагенство</p>
+                    </div>
+                </a>
+        
+                <div class="contacts-wrapper">
+                    <ul class="contacts">
+                        <li><a class="contacts-link tel" href="tel:89243541540">8-924-3-541-540</a></li>
+                        <li><a class="contacts-link mail" href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a></li>
+                    </ul>
+                    <button class="header-button" type="button">Обратный звонок</button>
+                </div>
+            </div>
+    
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a class="header-nav-link" href="#">Бронирование</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#">Экскурсии</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#">Туры и Байкал</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#">О Байкале</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#">О нас</a></li>
+                </ul>      
+            </nav>
+        </div>
     </header>
 
     <!-- Уникальный контент -->
     <main>
         <!-- Герой -->
         <section>
-            <h1>Путешествия по Байкалу</h1>
-            <p>Туры по самому красивому месту России. Поехалис нами за новыми впечатлениями!</p>
-            <a href="/">ПОДОБРАТЬ ТУР</a>
-            <a href="">стрелка вниз</a>
+            
+            <div class="container">
+                <h1>Путешествия по Байкалу</h1>
+                <p>Туры по самому красивому месту России. Поехалис нами за новыми впечатлениями!</p>
+                <a href="/">ПОДОБРАТЬ ТУР</a>
+                <a href="">стрелка вниз</a>
+            </div>
+        
         </section>
         
     <!-- Подобрать тур -->
@@ -128,35 +142,70 @@
         </section>
 
     <!-- Основные направления деятельности -->
-        <section>
-            <h2>Основные направления деятельности</h2>
+        <section class="direction">
+           
+            <div class="container">
+                <h2 class="direction-title">Основные направления деятельности</h2>
 
-            <ul>
-                <li>
-                    <p>Групповые и индивидуальные туры по Байкалу для российских и иностранных туристов</p>
-                </li>
-                <li>
-                    <p>Экскурсии по городу Улан-Удэ, Республике Бурятия, городу Иркутск</p>
-                </li>
-                <li>
-                    <p>Услуги гидов-переводчиков на любом иностранном языке</p>
-                </li>
-                <li>
-                    <p>Круизы и прогулки по Байкалу на теплоходах и катерах</p>
-                </li>
-                <li>
-                    <p>Профессиональная организация охоты и рыбалки на Байкале</p>
-                </li>
-                <li>
-                    <p>Аренда автотранспорта для экскурсий и пассажирских перевозок</p>
-                </li>
-                <li>
-                    <p>Бронирование гостиниц в городе Улан-Удэ и на Байкале</p>
-                </li>
-                <li>
-                    <p>Организация индивидуальных туров и VIP-туров на Байкале</p>
-                </li>
-            </ul>
+                <ul class="direction-list">
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction1"></use>
+                        </svg>
+                        <p class="direction-text">Групповые и индивидуальные туры по Байкалу для российских и иностранных туристов</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction2"></use>
+                        </svg>
+                        <p class="direction-text">Экскурсии по городу Улан-Удэ, Республике Бурятия, городу Иркутск</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction3"></use>
+                        </svg>
+                        <p class="direction-text">Услуги гидов-переводчиков на любом иностранном языке</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction4"></use>
+                        </svg>
+                        <p class="direction-text">Круизы и прогулки по Байкалу на теплоходах и катерах</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction5"></use>
+                        </svg>
+                        <p class="direction-text">Профессиональная организация охоты и рыбалки на Байкале</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction6"></use>
+                        </svg>
+                        <p class="direction-text">Аренда автотранспорта для экскурсий и пассажирских перевозок</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction7"></use>
+                        </svg>
+                        <p class="direction-text">Бронирование гостиниц в городе Улан-Удэ и на Байкале</p>
+                    </li>
+
+                    <li class="direction-item">
+                        <svg width="84px" height="84px">
+                            <use href="./images/icons.svg#icon-direction8"></use>
+                        </svg>
+                        <p class="direction-text">Организация индивидуальных туров и VIP-туров на Байкале</p>
+                    </li>
+                </ul>
+            </div>
+
         </section>
 
     <!-- Популярные предложения -->
@@ -272,46 +321,64 @@
                 </div>
 
                 <ul class="photogallery-card">
-                    <li class="photogallery-card-items"><img 
-                        src="./images/photo-gallery1.jpg" 
-                        alt="Берег" 
-                        width="352" 
-                        height="256"
+                    <li class="photogallery-card-items">
+                        <div class="photogallery-cover">
+                            <img 
+                            src="./images/photo-gallery1.jpg" 
+                            alt="Берег" 
+                            width="300" 
+                            height="204">
+                        </div>
                     </li>
 
-                    <li class="photogallery-card-items"><img 
-                        src="./images/photo-gallery2.jpg" 
-                        alt="Морские котики" 
-                        width="352" 
-                        height="256">
+                    <li class="photogallery-card-items">
+                        <div class="photogallery-cover">
+                            <img 
+                            src="./images/photo-gallery2.jpg" 
+                            alt="Морские котики" 
+                            width="300" 
+                            height="204">
+                        </div>
                     </li>
 
-                    <li class="photogallery-card-items"><img 
-                        src="./images/photo-gallery3.jpg" 
-                        alt="Скала в море" 
-                        width="352" 
-                        height="256">
+                    <li class="photogallery-card-items">
+                        <div class="photogallery-cover">
+                            <img 
+                            src="./images/photo-gallery3.jpg" 
+                            alt="Скала в море" 
+                            width="300" 
+                            height="204">
+                        </div>
                     </li>
 
-                    <li class="photogallery-card-items"><img 
-                        src="./images/photo-gallery4.jpg" 
-                        alt="Голова Ленина" 
-                        width="352" 
-                        height="256">
+                    <li class="photogallery-card-items">
+                        <div class="photogallery-cover">
+                            <img 
+                            src="./images/photo-gallery4.jpg" 
+                            alt="Голова Ленина" 
+                            width="300" 
+                            height="204">
+                        </div>
                     </li>
 
-                    <li class="photogallery-card-items"><img 
-                        src="./images/photo-gallery5.jpg" 
-                        alt="Дома в горах" 
-                        width="352" 
-                        height="256">
+                    <li class="photogallery-card-items">
+                        <div class="photogallery-cover">
+                            <img 
+                            src="./images/photo-gallery5.jpg" 
+                            alt="Дома в горах" 
+                            width="300" 
+                            height="204">
+                       </div>
                     </li>
                     
-                    <li class="photogallery-card-items"><img 
-                        src="./images/photo-gallery6.jpg" 
-                        alt="Море" 
-                        width="352" 
-                        height="256">
+                    <li class="photogallery-card-items">
+                       <div class="photogallery-cover">
+                            <img 
+                            src="./images/photo-gallery6.jpg" 
+                            alt="Море" 
+                            width="300" 
+                            height="204">
+                       </div>
                     </li>
                 </ul>
             </div>
