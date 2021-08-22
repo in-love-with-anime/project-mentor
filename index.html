@@ -217,96 +217,158 @@
         </section>
 
     <!-- Популярные предложения -->
-        <section>
-            <h2>Популярные предложения</h2>
-            <ul>
-                <li><a href="/">
-                    <img src="./images/popular1.jpg" alt="Девушка в басейне" width="256" height="256">
-                    <h3>Зимний однодневный тур на Чивыркуйский залив</h3>
-                    <p>Cтоимость 4000 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular2.jpg" alt="Вода покрытая льдом" width="256" height="256">
-                    <h3>Зимний однодневный тур на остров Ольхон</h3>
-                    <p>Cтоимость 5000 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular3.jpg" alt="Постамент Ленина" width="256" height="256">
-                    <h3>Обзорная экскурсия по Улан-Удэ</h3>
-                    <p>Продолжительность 3 часа Cтоимость от 500 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular4.jpg" alt="Домик в селе" width="256" height="256">
-                    <h3>Эко-отель «Байкальское шале», с. Максимиха</h3>
-                    <p>Стоимость от 6500 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular5.jpg" alt="Дом в китайском стиле" width="544" height="544">
-                    <h3>Экскурсия в Иволгинский дацан</h3>
-                    <p>Продолжительность 4 часа Cтоимость от 500 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular6.jpg" alt="Катер у берега" width="256" height="256">
-                    <h3>Летний однодневный тур в Чивыркуйский залив</h3>
-                    <p>Cтоимость 4000 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular7.jpg" alt="Отель" width="256" height="256">
-                    <h3>Отель «Белая Карета», с. Горячинск</h3>
-                    <p>Cтоимость от 3200 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular8.jpg" alt="Маяк" width="256" height="256">
-                    <h3>Однодневная поездка на Байкал «Байкальская Гавань»</h3>
-                    <p>Стоимость от 1000 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular9.jpg" alt="Територия отеля" width="256" height="256">
-                    <h3>Парк-отель «Сагаан-Морин», с. Сухая</h3>
-                    <p>Стоимость от 3500 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular10.jpg" alt="Скала в море" width="256" height="256">
-                    <h3>Летний однодневный тур на остров Ольхон</h3>
-                    <p>Стоимость 8500 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular11.jpg" alt="Скалистый берег" width="256" height="256">
-                    <h3>Парк-отель «Байкальская Ривьера», с. Гремячинск</h3>
-                    <p>Cтоимость от 3700 руб.</p>
-                </a>
-                </li>
-
-                <li><a href="/">
-                    <img src="./images/popular12.jpg" alt="Деревянный дом" width="256" height="256">
-                    <h3>Зимний тур «Чивыркуйская сказка»</h3>
-                    <p>Стоимость 2000 руб.</p>
-                </a>
-                </li>
-            </ul>
-                
-                <button type="button">Показать все предложения</button>
+        <section class="offer">
             
+            <div class="container">
+                <h2 class="offer__title">Популярные предложения</h2>
+                <ul class="offer__list">
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular1.jpg" alt="Девушка в басейне" width="256" height="256">
+                            <h3 class="offer__topic">Зимний однодневный тур на Чивыркуйский залив</h3>
+                            <p class="offer__price">Cтоимость 4000 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular2.jpg" alt="Вода покрытая льдом" width="256" height="256">
+                            <h3 class="offer__topic">Зимний однодневный тур на остров Ольхон</h3>
+                            <p class="offer__price">Cтоимость 5000 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular5.jpg" alt="Дом в китайском стиле" width="544" height="544">
+                            <h3 class="offer__topic offer__topic--font-size">Экскурсия в Иволгинский дацан</h3>
+                            <p class="offer__price">Продолжительность 4 часа<br>Cтоимость от 500 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular3.jpg" alt="Постамент Ленина" width="256" height="256">
+                            <h3 class="offer__topic">Обзорная экскурсия по Улан-Удэ</h3>
+                            <p class="offer__price">Продолжительность 3 часа<br>Cтоимость от 500 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular4.jpg" alt="Домик в селе" width="256" height="256">
+                            <h3 class="offer__topic">Эко-отель «Байкальское шале», с. Максимиха</h3>
+                            <p class="offer__price">Стоимость от 6500 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular6.jpg" alt="Катер у берега" width="256" height="256">
+                            <h3 class="offer__topic">Летний однодневный тур в Чивыркуйский залив</h3>
+                            <p class="offer__price">Cтоимость 4000 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular7.jpg" alt="Отель" width="256" height="256">
+                            <h3 class="offer__topic">Отель «Белая Карета», с. Горячинск</h3>
+                            <p class="offer__price">Cтоимость от 3200 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular8.jpg" alt="Маяк" width="256" height="256">
+                            <h3 class="offer__topic">Однодневная поездка на Байкал «Байкальская Гавань»</h3>
+                            <p class="offer__price">Стоимость от 1000 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular9.jpg" alt="Територия отеля" width="256" height="256">
+                            <h3 class="offer__topic">Парк-отель «Сагаан-Морин», с. Сухая</h3>
+                            <p class="offer__price">Стоимость от 3500 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular10.jpg" alt="Скала в море" width="256" height="256">
+                            <h3 class="offer__topic">Летний однодневный тур на остров Ольхон</h3>
+                            <p class="offer__price">Стоимость 8500 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular11.jpg" alt="Скалистый берег" width="256" height="256">
+                            <h3 class="offer__topic">Парк-отель «Байкальская Ривьера», с. Гремячинск</h3>
+                            <p class="offer__price">Cтоимость от 3700 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__link" href="/">
+                            <div class="offer__gradient"></div>
+                            <img src="./images/popular12.jpg" alt="Деревянный дом" width="256" height="256">
+                            <h3 class="offer__topic">Зимний тур «Чивыркуйская сказка»</h3>
+                            <p class="offer__price">Стоимость 2000 руб.</p>
+                        </a>
+                    </li>
+
+                    <li class="offer__item">
+                        <a class="offer__all-offers">
+                            <div class="offer__gradient"></div>
+                            <span class="all-offer__title">Показать все предложения</span>
+                        </a>
+                    </li>
+
+                </ul>
+                    
+                
+            
+            </div>
+
+        </section>
+
+    <!-- О Байкале -->
+        <section class="about">
+            <div class="about-wrapper container">
+                <div class="about__block">
+                    <h2 class="about__title">О Байкале</h2>
+                    <p class="about__text">Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние жители Прибайкалья называли его Священным морем и считали, что в Байкале нет дна, обожествляли и наделяли его мистическими свойствами. Именно здесь пронзительные чувства и скрытые способности человека находят выплеск.</p>
+                    <p class="about__text">Познается что-то новое не только в природе, но и в самом себе. Многие посетившие Байкал люди утверждают, что озеро оказало большое влияние на их дальнейшую жизнь.</p>
+                    <input class="about__checkbox" type="checkbox" id="about__checkbox" hidden></input>
+                    <p class="about__text about__text--checked">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga eius, officia voluptates consequuntur et quaerat ad ipsum, dolor ex eveniet libero sunt alias vero expedita? Labore atque molestias accusamus.</p>
+                    <label class="about__label" type="checkbox" for="about__checkbox">
+                        <span class="read-more">Читать подробнее</span>
+                        <span class="read-less">Скрыть</span>
+                    </label>   
+                </div>
+
+                <iframe class="about__video"
+                    width="640" 
+                    height="380" 
+                    src="https://www.youtube.com/embed/r_izDyWAid4" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
         </section>
 
         <!-- Фотогалерея -->
@@ -394,126 +456,155 @@
         </section>
 
         <!-- Статья -->
-        <section>
-            <h2>Байкальский отдых</h2>
-            <p>
-                <b>Байкальский отдых с нами – это легко!</b>
-            </p>
+        <section class="article">
+            <div class="container">
+                <h2 class="visually-hidden">Байкальский отдых</h2>
+                
+                <b class="article__topic">Байкальский отдых с нами – это легко!</b>
 
-            <img src="./images/article1.jpg" alt="Берег моря" width="256" height="256">
-            <img src="./images/article2.jpg" alt="Пара" width="256" height="318">
-
-            <p>На сайте  туристического агентства «Байкальский отдых» вы найдете всю необходимую информацию о туристических базах отдыха на озере Байкал. Любите ли вы отличный сервис и европейский комфорт или предпочитаете прочувствовать все трудности дикого туризма и окунуться в атмосферу байкальской природы, здесь вы сможете найти турбазу по своему вкусу.</p>
-            <p>Туристические базы отдыха на Байкале предоставляют разнообразные условия размещения, они отличаются по перечню предлагаемых услуг и уровню комфорта.</p>
-            <p>Есть большие турбазы с полностью организованным питанием и вечерними дискотеками, есть также небольшие малолюдные базы всего с несколькими коттеджами. Можно арендовать отдельный гостевой домик с кухней и готовить пищу самостоятельно.</p>
-            <p>Среди этого многообразия обязательно найдется подходящая, именно вам, база отдыха. Тем не менее, Байкал, до сих пор, обладает всеми оттенками дикого экотуризма, чем и привлекает, уставших от городской суеты, туристов.</p>
-            <p>Если вы предпочитаете зимний байкальский отдых, к Вашим услугам круглогодичные отапливаемые турбазы и различные зимние развлечения. Байкал зимой поражает кристальной чистотой и прозрачностью льда.</p>
-            <p>Туристы очень любят отмечать Новогодние праздники и Рождество на турбазах Байкала, так как новый год на Байкале отличается особым волшебством. Развлекательную новогоднюю программу готовит почти каждая турбаза.</p>
+                <div class="article__wrapper">
+                    <div class="article__thumb">
+                        <img src="./images/article1.jpg" alt="Берег моря" width="256" height="256">
+                        <img class="article__image" src="./images/article2.jpg" alt="Пара" width="256" height="318">
+                    </div>
+    
+                    <div class="article__content">
+                        <p class="article__text">На сайте  туристического агентства «Байкальский отдых» вы найдете всю необходимую информацию о туристических базах отдыха на озере Байкал. Любите ли вы отличный сервис и европейский комфорт или предпочитаете прочувствовать все трудности дикого туризма и окунуться в атмосферу байкальской природы, здесь вы сможете найти турбазу по своему вкусу.</p>
+                        <p class="article__text">Туристические базы отдыха на Байкале предоставляют разнообразные условия размещения, они отличаются по перечню предлагаемых услуг и уровню комфорта.</p>
+                        <p class="article__text">Есть большие турбазы с полностью организованным питанием и вечерними дискотеками, есть также небольшие малолюдные базы всего с несколькими коттеджами. Можно арендовать отдельный гостевой домик с кухней и готовить пищу самостоятельно.</p>
+                        <p class="article__text">Среди этого многообразия обязательно найдется подходящая, именно вам, база отдыха. Тем не менее, Байкал, до сих пор, обладает всеми оттенками дикого экотуризма, чем и привлекает, уставших от городской суеты, туристов.</p>
+                        <p class="article__text">Если вы предпочитаете зимний байкальский отдых, к Вашим услугам круглогодичные отапливаемые турбазы и различные зимние развлечения. Байкал зимой поражает кристальной чистотой и прозрачностью льда.</p>
+                        <p class="article__text">Туристы очень любят отмечать Новогодние праздники и Рождество на турбазах Байкала, так как новый год на Байкале отличается особым волшебством. Развлекательную новогоднюю программу готовит почти каждая турбаза.</p>
+                    </div>
+                </div>
             
+            </div>
         </section>
 
         <!-- Достижения в цифрах -->
-        <section>
-            <h2>Достижения в цифрах</h2>
-            <ul>
-                <li>
-                    <p>
-                        <span>7</span> лет успешной работы
-                    </p>
-                </li>
+        <section class="success">
+            <div class="container">
+                <h2 class="success__title visually-hidden">Достижения в цифрах</h2>
 
-                <li>
-                    <p>
-                        <span>250+</span> отелей на Байкале
-                    </p>
-                </li>
+                <ul class="success__list">
+                    <li class="success__item">
+                        <p class="success__text success__text--width">
+                            <span class="success__number">7</span> лет успешной работы
+                        </p>
+                    </li>
 
-                <li>
-                    <p>
-                        <span>100+</span> различных туров
-                    </p>
-                </li>
+                    <li class="success__item">
+                        <p class="success__text">
+                            <span class="success__number">250+</span> отелей на Байкале
+                        </p>
+                    </li>
 
-                <li>
-                    <p>
-                        <span>32000</span> кв. км – площадь на которой мы организовываем путешествия
-                    </p>
-                </li>
+                    <li class="success__item">
+                        <p class="success__text">
+                            <span class="success__number">100+</span> различных туров
+                        </p>
+                    </li>
 
-                <li>
-                    <p>
-                        <span>50000</span> довольных туристов от 3 до 85 лет
-                    </p>
-                </li> 
-            </ul>
+                    <li class="success__item">
+                        <p class="success__text">  
+                            <span class="success__number">32000</span> кв. км – площадь на которой мы организовываем путешествия
+                        </p>
+                    </li>
+
+                    <li class="success__item">
+                        <p class="success__text">
+                            <span class="success__number">50000</span> довольных туристов от 3 до 85 лет
+                        </p>
+                    </li> 
+                </ul>
+
+            </div>
         </section>
     </main>
 
     <!-- Футер сайта -->
-    <footer> 
-        <!-- Верхний футер -->
-        <div>
-            <div>
-                <h3>Бронирование</h3>
-                <ul>
-                    <li><a href="/">Отели и базы отдыха</a></li>
-                    <li><a href="/">Теплоходы и катера</a></li>
-                    <li><a href="/">Транспортные услуги</a></li>
-                </ul>
+    <footer class="footer"> 
+       
+        <div class="container">
+             <!-- Верхний футер -->
+            <div class="footer-top">
+                <div class="footer-top__wrapper">
+                    <h3 class="footer-top__title">Бронирование</h3>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Отели и базы отдыха</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Теплоходы и катера</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Транспортные услуги</a></li>
+                    </ul>
+                </div>
+                <div class="footer-top__wrapper">
+                    <h3 class="footer-top__title">Экскурсии</h3>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Экскурсии и туры</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Экстрим туры</a></li>
+                    </ul>
+                </div>
+                <div class="footer-top__wrapper">
+                    <h3 class="footer-top__title">Туры на Байкал</h3>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Туры Зима-Весна</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Туры Лето-Осень</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Туры охоты и рыбалки</a></li>
+                    </ul></div>
+                <div class="footer-top__wrapper">
+                    <h3 class="footer-top__title">О Байкале</h3>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Карта Байкала</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Достопримечательности</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Полезная информация</a></li>
+                    </ul></div>
+                <div class="footer-top__wrapper">
+                    <h3 class="footer-top__title">О нас</h3>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Контакты</a></li>
+                        <li class="footer-top__item"><a class="footer-top__link" href="/">Агентствам</a></li>
+                    </ul></div>
             </div>
-            <div>
-                <h3>Экскурсии</h3>
-                <ul>
-                    <li><a href="/">Экскурсии и туры</a></li>
-                    <li><a href="/">Экстрим туры</a></li>
-                </ul>
+
+            <!-- Нижний футер -->
+            <div class="footer-bottom">
+                
+                <div class="footer-bottom__wrapper">
+                    <p class="footer-bottom__title">Турагентство «Байкальский отдых»</p>
+                    <small class="footer-bottom__element">&copy; 2021. Все права защищены</small>
+                </div>
+
+                <div class="footer-bottom__wrapper">
+                    <p class="footer-bottom__title">Заказ туров и бронирование:</p>
+                    <ul>
+                        <li class="footer-bottom__element"> 
+                            <a href="tel:89243541540"></a>тел. 8-924-3-541-540
+                        </li>
+
+                        <li class="footer-bottom__element"> 
+                            <a  href="mailto:baikalholiday@mail.ru"></a>e-mail: baikalholiday@mail.ru
+                        </li>
+                    </ul>
+                </div>
+
+                <address style="font-style: normal">
+                    <p class="footer-bottom__title">Адрес:</p>
+                    <p  class="footer-bottom__element">г. Улан-Удэ, ул.Гражданская, 20,<br>
+                    отель «Рестон», 1 этаж</p>
+                </address>
+
+                <div class="footer-bottom__policy-box">
+                    <a  class="footer-bottom__policy" href="/">Политика конфиденциальности</a>
+                    <a  class="footer-bottom__design" href="/">
+                        Дизайн
+                        <svg class="icon-design" width="52" height="22">
+                            <use href="./images/icons.svg#icon-design" alt="Логотип cтудии, которая делала дизайн"></use>
+                        </svg>  
+                    </a>
+                </div>
+                    
             </div>
-            <div>
-                <h3>Туры на Байкал</h3>
-                <ul>
-                    <li><a href="/">Туры Зима-Весна</a></li>
-                    <li><a href="/">Туры Лето-Осень</a></li>
-                    <li><a href="/">Туры охоты и рыбалки</a></li>
-                </ul></div>
-            <div>
-                <h3>О Байкале</h3>
-                <ul>
-                    <li><a href="/">Карта Байкала</a></li>
-                    <li><a href="/">Достопримечательности</a></li>
-                    <li><a href="/">Полезная информация</a></li>
-                </ul></div>
-            <div>
-                <h3>О нас</h3>
-                <ul>
-                    <li><a href="/">Контакты</a></li>
-                    <li><a href="/">Агентствам</a></li>
-                </ul></div>
         </div>
 
-        <!-- Нижний футер -->
-        <div>
-            <p>Турагентство «Байкальский отдых»</p>
-            <p>&copy; 2021. Все права защищены</p>
-
-            <address style="font-style: normal">
-                <p>Заказ туров и бронирование:</p>
-                <ul>
-                    <li><a href="tel:89243541540"></a>тел. 8-924-3-541-540</li>
-                    <li><a href="mailto:baikalholiday@mail.ru"></a>e-mail: baikalholiday@mail.ru</li>
-                </ul>
-                <p>Адрес:</p>
-                <pre>
-                    г. Улан-Удэ, ул.Гражданская, 20,
-                    отель «Рестон», 1 этаж
-                </pre>
-            </address>
-
-            <a href="/">Политика конфиденциальности</a>
-            <a href="/">
-                Дизайн
-                <img src="./images/Logo-design.svg" alt="Логотип">
-            </a>
-        </div>
     </footer>
 </body>
 </html>
